@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is Login page</title>
+    
+    <style type="text/css">
+    body{
+        background-image: url('kanth.jpg') ;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
+        height: 100vh;
+
+    }
+    div{
+       border:5px solid blue;
+       border-radius: 15px; 
+       margin: 150px 300px 150px 300px;
+       padding:20px 50px 70px 15px;
+       line-height: 0px;
+    }
+</style>
+</head>
+<body>
+    <h1 color="brown"><marquee direction="right">Welcome to the login page</marquee></h1>
+    <div>
+        <form method="post" action="server url" target="_blank">
+            <h3>UserName</h3>
+            <input type="text" name="uname"/>
+        
+            <h3>Password</h3>
+            <input type="password" name="pass">
+        
+            <h3>Email</h3>
+            <input type="email" name="emailId">
+        
+            <h3>Habbits</h3>
+            <input type="checkbox" name="book" value="boo">ReadingBook
+            <input type="checkbox" name="game" value="pla">PlayingGame
+            <input type="checkbox" name="song" value="son">ListeningSong
+        
+            <h3>Gender</h3>
+            <input type="radio" name="gender" value="M">Male
+            <input type="radio" name="gender" value="F">Femail
+        
+            <h3>Date Of Birth</h3>
+            <input type="date" name="dob">
+        
+            <h3>Country</h3>
+            <select name="cntry" size="3" multiple>
+                <option>India</option><br/>
+                <option>America</option><br/>
+                <option>China</option><br/>
+            </select>
+        
+            <h3>Upload Latest Photo</h3>
+            <input type="file" name="photo">
+        
+            <h3>About yourself</h3>
+            <textarea rows="5" cols="40" name="yourself">
+            </textarea><br>
+        
+            <button type="submit" style="background-color:red;color:white">SIGNUP</button>
+            </form>
+    </div>
+</body>
+</html>
