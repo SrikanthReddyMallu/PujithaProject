@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mainHeader
+{
+    margin-top:80px;
+    padding-left:400px;
+}
+.mainContent
+{
+    display: flex;
+    flex-direction:column ;
+    border:5px solid yellow;
+    border-radius: 15px; 
+    margin: 30px 450px 1000px 350px;
+    padding: 25px 65px;
+
+}
